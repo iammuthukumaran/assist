@@ -13,6 +13,11 @@ class AssistController extends Controller
 
     	return view('assist/assist');
     }
+    public function user()
+    {
+
+        return view('assist/user');
+    }
 
     public function store(Request $request)
     {

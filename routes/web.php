@@ -26,6 +26,7 @@ Route::get('/website/contact', function () {
 
 
 Route::get('/assist','AssistController@create');
+Route::get('/assist/user','AssistController@user');
 Route::post('/assist/store','AssistController@store');
 
 
